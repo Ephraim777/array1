@@ -48,7 +48,7 @@ int * arr = new int[actual_size];
 
     print_dynamic_array(arr,logical_size,actual_size);
 
-
+delete [] arr;
 
     return 0;
 }
